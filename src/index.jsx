@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import {ContextApp} from "./ContextApp/ContextApp";
+import {BE} from "./BoundaryError/BE";
+// import {CompApp} from "./Composition/CompApp";
+// import {ContextApp} from "./ContextApp/ContextApp";
 // import {ReactLazyApp} from "./ReactLazy/ReactLazyApp";
 // import {AppOne} from "./DynamicImport/App_1";
 // import {AppTwo} from "./DynamicImport/App_2";
@@ -14,7 +16,9 @@ ReactDOM.render(
         {/*<AppOne/>*/}
         {/*<AppTwo/>*/}
         {/*<ReactLazyApp/>*/}
-        <ContextApp/>
+        {/*<ContextApp/>*/}
+        {/*<CompApp/>*/}
+        <BE/>
     </div>,
     destination
 );

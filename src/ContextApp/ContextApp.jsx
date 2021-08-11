@@ -12,7 +12,7 @@ export const ContextApp = () => {
     return (
         <>
             <div>React Context</div>
-            <FunctionsContext.Provider value={{sayHello, sayBye, sayGoodBye}}>
+            <FunctionsContext.Provider value={[sayHello, sayBye, sayGoodBye]}>
                 <InnerComponent/>
             </FunctionsContext.Provider>
         </>
