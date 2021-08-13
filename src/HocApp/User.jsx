@@ -1,5 +1,6 @@
 import React from "react";
-import withRequest from "./hocs/withRequest";
+// import withRequest from "./hocs/withRequest";
+import higherOrderFunc from "./hocs/withFuncRequest"
 
 const User = (
     {
@@ -16,4 +17,5 @@ const User = (
         <p><b>phone:</b>{phone}</p>
     </div>
 )
-export default withRequest(User, 'https://jsonplaceholder.typicode.com/users');
+// export default withRequest(User, 'https://jsonplaceholder.typicode.com/users');
+export default higherOrderFunc()(User, 'https://jsonplaceholder.typicode.com/users');
