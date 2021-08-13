@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import {HocApp} from "./HocApp/HocApp";
+import {JsxApp} from "./jsxApp/jsxApp";
+// import {HocApp} from "./HocApp/HocApp";
 // import {BE} from "./BoundaryError/BE";
 // import {RefApp} from "./Ref/RefApp";
 // import {CompApp} from "./Composition/CompApp";
@@ -22,7 +23,8 @@ ReactDOM.render(
         {/*<CompApp/>*/}
         {/*<BE/>*/}
         {/*<RefApp/>*/}
-        <HocApp/>
+        {/*<HocApp/>*/}
+        <JsxApp/>
     </div>,
     destination
 );
