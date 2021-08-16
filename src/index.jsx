@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import {ProfilerCheckerApp} from "./ProfilerCheckerApp/ProfilerCheckerApp";
 // import {PortalApp} from "./Portals/PortalApp";
-import {PortalAppTwo} from "./Portals/PortalAppTwo";
+// import {PortalAppTwo} from "./Portals/PortalAppTwo";
 // import {JsxApp} from "./jsxApp/jsxApp";
 // import {HocApp} from "./HocApp/HocApp";
 // import {BE} from "./BoundaryError/BE";
@@ -28,7 +29,8 @@ ReactDOM.render(
         {/*<HocApp/>*/}
         {/*<JsxApp/>*/}
         {/*<PortalApp/>*/}
-        <PortalAppTwo/>
+        {/*<PortalAppTwo/>*/}
+        <ProfilerCheckerApp/>
     </>,
     destination
 );
