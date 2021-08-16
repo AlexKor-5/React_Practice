@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import {PortalApp} from "./Portals/PortalApp";
+// import {PortalApp} from "./Portals/PortalApp";
+import {PortalAppTwo} from "./Portals/PortalAppTwo";
 // import {JsxApp} from "./jsxApp/jsxApp";
 // import {HocApp} from "./HocApp/HocApp";
 // import {BE} from "./BoundaryError/BE";
@@ -26,7 +27,8 @@ ReactDOM.render(
         {/*<RefApp/>*/}
         {/*<HocApp/>*/}
         {/*<JsxApp/>*/}
-        <PortalApp/>
+        {/*<PortalApp/>*/}
+        <PortalAppTwo/>
     </>,
     destination
 );
