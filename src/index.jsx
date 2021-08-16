@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import {JsxApp} from "./jsxApp/jsxApp";
+import {PortalApp} from "./Portals/PortalApp";
+// import {JsxApp} from "./jsxApp/jsxApp";
 // import {HocApp} from "./HocApp/HocApp";
 // import {BE} from "./BoundaryError/BE";
 // import {RefApp} from "./Ref/RefApp";
@@ -14,7 +15,7 @@ import {JsxApp} from "./jsxApp/jsxApp";
 let destination = document.querySelector("#container");
 
 ReactDOM.render(
-    <div>
+    <>
         {/*<h1>Hello</h1>*/}
         {/*<AppOne/>*/}
         {/*<AppTwo/>*/}
@@ -24,7 +25,8 @@ ReactDOM.render(
         {/*<BE/>*/}
         {/*<RefApp/>*/}
         {/*<HocApp/>*/}
-        <JsxApp/>
-    </div>,
+        {/*<JsxApp/>*/}
+        <PortalApp/>
+    </>,
     destination
 );
