@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import {ProfilerCheckerApp} from "./ProfilerCheckerApp/ProfilerCheckerApp";
+import {RenderPropsApp} from "./RenderPropsApp/RenderPropsApp";
+// import {ProfilerCheckerApp} from "./ProfilerCheckerApp/ProfilerCheckerApp";
 // import {PortalApp} from "./Portals/PortalApp";
 // import {PortalAppTwo} from "./Portals/PortalAppTwo";
 // import {JsxApp} from "./jsxApp/jsxApp";
@@ -30,7 +31,8 @@ ReactDOM.render(
         {/*<JsxApp/>*/}
         {/*<PortalApp/>*/}
         {/*<PortalAppTwo/>*/}
-        <ProfilerCheckerApp/>
+        {/*<ProfilerCheckerApp/>*/}
+        <RenderPropsApp/>
     </>,
     destination
 );
